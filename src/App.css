@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+} 
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+nav {
+  background-color: #017ee5; /* Material-UI primary color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  display: block;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #1565c0; /* Material-UI darker primary color */
+}
+
+/* Centering title in the Navbar */
+.MuiTypography-root {
+  display: flex;
+  align-items: center;
+}
+footer {
+  background-color: #2196f3;
+  color: white;
+  padding-top: 1em;
+  text-align: center;
+  margin-top: auto;
+}
